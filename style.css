@@ -1,0 +1,53 @@
+body{
+    /* (bg-image linear/radial-gradiente) inspirado em uma pagina do site "https://www.w3schools.com/css/css3_gradients.asp" */
+    /* usado para deixar a o background em gradiente, tendo a possibilidade de usar duas cores */
+    
+     background-image: linear-gradient(to bottom right, #4affde 0%, 
+ #5b9dff 40%, #058feb 60%, #0affc2 100%); 
+    background-image: radial-gradient(rgb(0, 255, 221)20% rgb(0, 140, 255));
+    animation: gradientEffect 6s linear infinite alternate;
+    background-size: 200% 200%;
+}   
+
+@keyframes gradientEffect {
+    from {background-position: 0 0;}
+    to {background-position: 100% 100%;}
+}
+
+ #logos1{
+    width: 80px;
+ }
+ #logos{ width: 45px;
+
+ }
+
+.foto {
+    position:-ms-page;
+    top: 80px;
+    left: 50%;
+    border-radius: 3%;
+    width: 300px;
+
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(142, 223, 148);
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(142, 223, 148);
+    font-size: larger;
+    font-weight: 200;
+}
+
+.Trybe {
+    color: #1f7761;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.devweb {
+    color: rgb(243, 141, 8);
+}
